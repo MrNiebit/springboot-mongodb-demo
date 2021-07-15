@@ -22,4 +22,8 @@ public interface DemoEntityDao {
 
     List<DemoEntity> findAll ();
 
+    List<DemoEntity> findDistinct ();
+
+    List<DemoEntity> findDistinct (String status);
+
 }
